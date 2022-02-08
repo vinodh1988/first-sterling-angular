@@ -3,3 +3,17 @@ h1{
     color: green;
     font-family: arial;
 }
+
+.theme1 li{
+    background-color: yellow;
+    border: 2px solid red;
+    color: red;
+    font-family: arial;
+}
+
+.theme2 li{
+    background-color: lightblue;
+    border: 2px solid brown;
+    color: brown;
+    font-family: arial;
+}

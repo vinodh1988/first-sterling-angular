@@ -1,8 +1,12 @@
 <h1>My First Angular APP</h1>
-
+<h3 [style.color]="'red'" (click)="toggleTheme()">change theme</h3>
 Appname:: {{appname}} <br/>
 Developer :: {{developer}}<br/>
-
+<u><b>Team:</b></u>
+<ul [ngClass]="theme">
+     <li *ngFor="let x of names">{{x}}</li>
+</ul>
+<app-timer></app-timer>
 <app-box></app-box>
 <app-box></app-box>
 <app-box></app-box>

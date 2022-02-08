@@ -1,0 +1,11 @@
+#timer{
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+    padding: 50px;
+    background-color: yellow;
+    border-radius:10px;
+    float: left;
+    color: darkred;
+    font-family: arial;
+}

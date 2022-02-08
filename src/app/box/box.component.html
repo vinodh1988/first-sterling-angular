@@ -1,3 +1,8 @@
 <div id="box">
-    
+    Type your name:: <input type="text" [(ngModel)]="name"><br/>
+    The name you typed is {{name}} <br/>
+    <h3>click any of the following names</h3>
+    <ul>
+        <li *ngFor="let x of names" (click)="changeName(x)">{{x}}</li>
+    </ul>
 </div>

@@ -6,8 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./box.component.css']
 })
 export class BoxComponent implements OnInit {
-
+names=['Roger','Ravi','Naresh','Kiran','Jay']
+name= "Default"
   constructor() { }
+
+  changeName(x:string){
+    this.name=x;
+  }
 
   ngOnInit(): void {
   }
