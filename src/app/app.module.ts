@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { BoxComponent } from './box/box.component';
 import { CircleComponent } from './circle/circle.component';
 import { TimerComponent } from './timer/timer.component';
+import { ReceiverComponent } from './receiver/receiver.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BoxComponent,
     CircleComponent,
-    TimerComponent  //components,directives and pipes
+    TimerComponent,
+    ReceiverComponent  //components,directives and pipes
   ],
   imports: [
     BrowserModule,

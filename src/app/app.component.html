@@ -6,10 +6,9 @@ Developer :: {{developer}}<br/>
 <ul [ngClass]="theme">
      <li *ngFor="let x of names">{{x}}</li>
 </ul>
+<h3 [style.color]="'red'" [style.backgroundColor]="'yellow'">Selected programmer is {{selected}}</h3>
+<app-receiver [names]="people" [boxtitle]="title" 
+(choose)="receiveValue($event)"></app-receiver>
 <app-timer></app-timer>
 <app-box></app-box>
-<app-box></app-box>
-<app-box></app-box>
-<app-circle></app-circle>
-<app-circle></app-circle>
-<app-circle></app-circle>
+<app-circle *ngFor="let x of circletitles" [name]="x"></app-circle>
