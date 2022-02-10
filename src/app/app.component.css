@@ -11,6 +11,14 @@ h1{
     font-family: arial;
 }
 
+
+#big-box{
+    overflow: hidden;
+    padding: 20px;
+    border: 1px solid black;
+    width: 90%;
+    margin: 20px;
+}
 .theme2 li{
     background-color: lightblue;
     border: 2px solid brown;

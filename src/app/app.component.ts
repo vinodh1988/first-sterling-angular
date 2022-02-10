@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {menuitems} from './data/datalist';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   appname = 'FIRST COMPONENT';
+  items=menuitems;
   developer="Johnson"
   names=["raj","Rahul","Naveen","Joseph","Anderson"]
   theme="theme1"

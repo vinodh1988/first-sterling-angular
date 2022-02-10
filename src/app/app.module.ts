@@ -8,6 +8,7 @@ import { BoxComponent } from './box/box.component';
 import { CircleComponent } from './circle/circle.component';
 import { TimerComponent } from './timer/timer.component';
 import { ReceiverComponent } from './receiver/receiver.component';
+import { MenuBoxComponent } from './menu-box/menu-box.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ReceiverComponent } from './receiver/receiver.component';
     BoxComponent,
     CircleComponent,
     TimerComponent,
-    ReceiverComponent  //components,directives and pipes
+    ReceiverComponent,
+    MenuBoxComponent  //components,directives and pipes
   ],
   imports: [
     BrowserModule,

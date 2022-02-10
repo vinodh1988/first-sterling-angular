@@ -1,0 +1,28 @@
+#container{
+    height:150px;
+    width: 350px;
+    padding: 20px;
+    font-family: arial, sans-serif;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px gray;
+    float: left;
+    margin: 20px;
+}
+
+#left{
+    box-sizing: border-box;
+    width: 30%;
+    padding: 20px;
+    float: left;
+}
+#right{
+    box-sizing: border-box;
+    float: left;
+    padding: 5px;
+    width: 70%;
+}
+#left img{
+    height: 80%;
+    width: 80%;
+}
+

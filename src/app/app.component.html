@@ -1,4 +1,7 @@
 <h1>My First Angular APP</h1>
+<div id="big-box">
+     <app-menu-box *ngFor="let x of items" [menuitem]="x"></app-menu-box>
+</div>
 <h3 [style.color]="'red'" (click)="toggleTheme()">change theme</h3>
 Appname:: {{appname}} <br/>
 Developer :: {{developer}}<br/>
